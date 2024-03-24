@@ -1,0 +1,17 @@
+cual es la funcion del metodo super()?
+Invocar a un al constructor  de la clase base(superclase) o aun metodo
+
+en que situacione se debe usar el prefijo 'self'?
+El prefijo self se debe usar en parar todos los atributos y metodos dentro de una clase 
+
+como se define una propiedad o metodo como 'protegido' en python?
+con la sintaxis self._nombrePropiedad o def _nombreMetodo
+
+como se define una propiedad o metodo como 'PRIVADO' en python?
+con la sintaxis de doble guin para PROPIEDADES O METODOS
+
+como se implementa la heerencian python?
+en la sub clase se debe agregar un parentesis y dentro el nombre del clase padre
+
+como  se establece el construitoir de una clase?
+con el prefijo __init__ seguido de los arg del constructor

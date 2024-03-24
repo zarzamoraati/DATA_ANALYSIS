@@ -1,0 +1,160 @@
+===REPASO CORTE 1
+
+sintaxis value.sort(arg1),value.reverse(),replace (arg1,arg2) ,value.insert(location, value)
+
+sintaxis list(string)
+
+sintxis string.lower()/upper(), string.startswith(value o substring)
+sintaxis "'patter'".join(value) and value.split(" ")
+
+raise
+
+operadores in y not (funcionanen listas y tuplas) 
+
+rebaandas: Una rebanada permite hacer una copia del contenido de la lista, no del nombre de la lista,es decir crea una nueva lista.
+
+instruccion del + rebanadas ,en este caso la rebanada no devuelve nada y muta a la matriz
+
+
+CUESTIONARIO 
+0.1 QUE TIPOS OSN VALIDOS COMO KEYS PARA UN DICCIONARIO?
+Valores inmutables (primitivos, tuplas )
+
+1.como agregas un nuevo elemto a undiccionrio?
+con el operador de asignacion , el nombre de la clave entre parentesis a la izq  ye l valor de la clave a la derecha
+2.como remueve un elemento del diccionario dada una key ?
+con el mtodo pop
+2.1Adiefrencia de las listas, que pasa si al metodo pop ,no se le da ningun arg?
+Hay un error de Tipo
+3.como remueves el ultimo elemnto insertado en el diccionario?
+cn el metodo popitem()
+4.como crear una copia superficial del diccionaio?
+con el metodo copy()
+5.como vacias el diccionario?
+con el metodo key()
+6.como sonsigues in elento del diccionario
+con el metodo get() y la clave especificada
+7. que devuelve el metod get si la clave no existe en e diccionario
+retorna "default"
+8.como se actualiza/agregar un valor de una clave en el diccionario?
+con el metodo update()que recibe un par clave-valor
+9.que devuelve el metodo keys()
+una lista cons las claves del diccionario
+10.que devuelve el metodo values()
+una lista con los valores del diccionario
+11.que devuelve el metodo items()
+una lista de tuplas clave-valor con los elemtos existentes en el diccionario
+
+===REPASO CORTE 2
+
+describe la funcion del metodo all() & any() ,tambien enlista que estrcuturas son aceptadas por estos metodos(lista,tupla y generador)
+
+SINTAXIS isinstance(value,type)
+
+paar que se utiliza la palabra clave @ en uan funcionq ue recibe un decorador 
+
+MAP()
+la funcion map toma dos args,el primero es la funcion de callback, el segundo es la lista a iterar, ejemplo  map(lambda x:x+1,list_numbers)
+
+FILTER()
+Es similar a map , pero EVALUA UAN CONDICION
+si es TRUE retorna el elemnto 
+si ees FALSE lo descarta
+
+TIME.TIME()
+el modulo time nos permite invocar al metodo time(), retorna el numero de segundos fraccionales que han transcurrido desde 1970 hasta el momento en que se llama la función
+
+CUESTIONARIO
+
+en pytho que e sun conjunto?
+es una lista de elemntos unicos o no repetidos
+que iterables acepta el argumento set() paar crear un nuevo conjunto?
+una lista de elementos
+
+Cuales son los argmento que s el pasanal metodo isinstance()?
+El elemento a evaluar , y el tipo esperado del elemto
+Que valor devuelve el metodo isinstance()?
+U booleano True o False
+Para que se utiliza elmtodo all()
+Comprueba que cada elemento de una lista cumpla una ocndicion dada
+Para que se utiliza el metodo any()
+Comprueba que almenos un elemento de una lista cumpla con la condicion dada
+Que valor devuelve ambos metodos?
+Un boolean
+================
+
+
+
+=====REPASO CORTE 3
+como guarda los elementos la convencion *args=?
+como guarda los eleemntos la convesion **kwargs?
+que tipos no son aceptados como claves en diccionarios? , por que?
+
+MAP()/Reduce()
+
+'¿Cuales son los args que toma la funcion map/reduce?
+
+primer arg = funcion callback
+segundo arg= un iterable
+
+¿Cuantos iterables puede rebir la funcon map/reduce?
+
+puede recibir uno o mas iterables
+
+¿Que devuelven las funciones map y reduce?
+
+un objeto de mapa, el cual se puede ocnvertir a una lista con el metodo all()
+
+
+-cuando se usa args con *, cual es la forma de los elemntos:
+eleemtos individuales
+-froma de los args sin asterisco ? :
+tupla
+
+
+CUESTIONARIO
+
+cual es el metodo para insertar un elem al final de la lista?
+append()
+
+cual es el metodo para insertar un eleemnto en un indice especifado ?
+insert(posicion,elemento)
+
+
+cual es el mtodo para remover un eleemnto de un indice ,ademas si no se da el arg , el metodo eliminara el elem del final de la lista?
+Metodo pop([index])
+
+cual es el metodo para eliminar la pimera apricion de un lemento en la lista?
+remove()
+
+
+cual es el emtodo para agregar un los eleemtos de un iterable al final de una lista?
+metodo extend()
+
+Cual es le metodo para devolver el indice de la primera aparicion de un lemnto ? 
+
+Metodo index(elemento[, inicio[, fin]])
+
+cual es el metodo para contar el numero de veces que un elemto parace en la lista?
+Metodo count()
+
+cual es el metodo para ordenar los elemetos de una lista?
+
+Metdo sort()
+
+Por defecto de que forma ordena los elementos el metodo sort()?
+De forma asc 
+
+Como ordenas unalista de forma desc usando el metodo osrt()
+agregando el arg "reverse=true"
+
+cual es el metodo para invertir una lista?
+
+Metodo reverse()
+
+El emtodo reverse devuelve un valor?
+No 
+
+
+
+====REAPSO CORTE 4 

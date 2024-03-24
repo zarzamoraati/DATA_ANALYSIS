@@ -1,0 +1,40 @@
+import os
+
+def crear_directorio(nombre_directorio):
+    try:
+        os.mkdir(nombre_directorio)
+        print("Directorio creado correctamente.")
+    except FileExistsError:
+        print("El directorio ya existe.")
+
+def crear_archivo(nombre_archivo, contenido):
+    with open(nombre_archivo, 'w') as archivo:
+        archivo.write(contenido)
+    print("Archivo creado correctamente.")
+
+# Crear un directorio
+nombre_directorio = "mi_directorio"
+crear_directorio(nombre_directorio)
+
+# Crear un archivo dentro del directorio
+nombre_archivo = "mi_archivo.txt"
+contenido_archivo = "Este es el contenido del archivo."
+ruta_archivo = os.path.join(nombre_directorio, nombre_archivo)
+crear_archivo(ruta_archivo, contenido_archivo)
+
+
+
+verificar si und orectorio est vacio 
+
+import os
+
+directorio = 'ruta/del/directorio'  # Reemplaza con la ruta del directorio que deseas verificar
+
+if os.path.exists(directorio):
+    contenido = os.listdir(directorio)
+    if len(contenido) == 0:
+        print(f"El directorio {directorio} está vacío.")
+    else:
+        print(f"El directorio {directorio} no está vacío.")
+else:
+    print("El directorio no existe.")

@@ -1,0 +1,20 @@
+cual es el nombre del metodo para verificar si el eleme es un archivo?
+os.path.isfile()
+cual es el nombre del metodo para verificar si el eleme es un archivo?
+os.path.isdir()
+que devuelven ambos metodos
+un booleano 
+cual es el metodo paara verificar si un elemento(dir o file) existe?
+os.path.exists()
+que veulve el metodo 
+Un booleano
+cual es el metodo para verificar si un un directorio esta vcio o no lo esta?
+os.listdir()
+Que devuelve el metodo os.listdir()?
+una lista con los elementos que contiene el directorio
+Cual es el metodo para remover un directorio vacio 
+os.rmdir()
+Cual es el metodo para remover un archivo?
+od.remove()
+
+
